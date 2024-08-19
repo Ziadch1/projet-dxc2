@@ -7,7 +7,8 @@ const client = require('prom-client');
 
 //wow
 
-console.log("This is a test")
+console.log("my test");
+
 const app = express();
 app.use(bodyParser.json());
 app.use(cors({
