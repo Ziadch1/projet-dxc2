@@ -6,6 +6,8 @@ const cors = require('cors');
 const client = require('prom-client');
 
 //wow
+
+console.log("This is a test")
 const app = express();
 app.use(bodyParser.json());
 app.use(cors({
